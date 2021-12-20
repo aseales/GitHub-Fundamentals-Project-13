@@ -97,7 +97,7 @@ We have installed the following Beats on these machines:
   Filebeat
 
 These Beats allow us to collect the following information from each machine:
-  Metricbeat collects metrics and statistics from services running on the server and from the operating system. CPU usage, memory, file system, disk and network IO                 statistics are all monitored. Filebeat centralizes and forwards log data. Both metricbeat and filebeat are considered lightweight shippers. 
+  Metricbeat collects metrics and statistics from services running on the server and from the operating system. CPU usage, memory, file system, disk and network IO statistics     are all monitored. Filebeat centralizes and forwards log data. It logs information about the system as to which flis have been changed and when. Both metricbeat and filebeat     are considered lightweight shippers.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
