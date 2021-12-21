@@ -1,4 +1,4 @@
-# Boot-Camp
+# GitHub Fundamentals Project 13
 ELK Stack Project
 ## Automated ELK Stack Deployment
 
