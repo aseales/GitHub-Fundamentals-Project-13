@@ -1,1 +1,4 @@
-
+ansible-playbook /etc/ansible/pentest.yml
+nano /etc/ansible/pentest.yml
+etc/ansible
+curl 10.1.0.6/setup.php
