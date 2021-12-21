@@ -108,13 +108,14 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to DVWA to check that the installation worked as expected.
 
 - Which file is the playbook? 
--   /etc/ansible/ansible.cfg 
+  -   /etc/ansible/ansible.cfg 
 - Where do you copy it?
--   /etc/ansible/hosts
+  -   /etc/ansible/hosts
 - Which file do you update to make Ansible run the playbook on a specific machine? 
--   /etc/ansible/pentest.yml
+  -   /etc/ansible/pentest.yml
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - Which URL do you navigate to in order to check that the ELK server is running?
--   http://40.86.225.220:5601/app/kibana#/home
+  -   http://40.86.225.220:5601/app/kibana#/home
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+    ansible-playbook /etc/ansible/pentest.yml
