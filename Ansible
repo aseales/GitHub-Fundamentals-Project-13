@@ -3,6 +3,11 @@ curl 10.1.0.6/setup.php
 ansible-playbook /etc/ansible/pentest.yml
 sudo docker start 21cf
 sudo docker attach 21cf
+sudo apt install docker.io
+sudo docker pull cyberxsecurity/ubuntu:bionic
+sudo docker run -ti cyberxsecurity/ubuntu:bionic bash
+sudo docker start jovial_leakey
+sudo docker container list -a
 
 
 
