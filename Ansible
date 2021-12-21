@@ -5,6 +5,8 @@ sudo docker start 21cf
 sudo docker attach 21cf
 
 
+
+
 /etc/ansible/pentest.yml
 nano /etc/ansible/pentest.yml
 ---
@@ -42,7 +44,8 @@ nano /etc/ansible/pentest.yml
       name: docker
       enabled: yes
       
-      
+ 
+ 
       
   /etc/ansible/hosts  
   nano /etc/ansible/hosts
@@ -94,6 +97,7 @@ nano /etc/ansible/pentest.yml
 # leading 0s:
 
 #db-[99:101]-node.example.com
+
 
 
 
