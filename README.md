@@ -3,6 +3,7 @@ ELK Stack Project
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
+
 https://github.com/aseales/GitHub-Fundamentals-Project-13/blob/53d5c861603527c3a220cd6200fd68df1f33c3e9/Images/Azure%20Resource%20Group%20Diagram%201.4.png
 
 
