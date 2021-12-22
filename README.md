@@ -74,11 +74,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 
-  install docker
-  install python3-pip
-  download and run the sebp/elk:761 container
-  SSH from your Ansible container to your ELK machine to verify the connection
-  SSH to your container and double check that your elk-docker container is running
+  - Install docker
+  - Install python3-pip
+  - Download and run the sebp/elk:761 container
+  - SSH from your Ansible container to your ELK machine to verify the connection
+  - SSH to your container and double check that your elk-docker container is running
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
