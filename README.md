@@ -73,6 +73,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
   Removes human error and reduces configuration time
 
 The playbook implements the following tasks:
+
   install docker
   install python3-pip
   download and run the sebp/elk:761 container
