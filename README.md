@@ -4,7 +4,8 @@ ELK Stack Project
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/aseales/Boot-Camp/blob/ce275176f70ec719ed12889c5e80bd752b999e3c/Images/Azure%20Resource%20Group%20Diagram.png
+https://github.com/aseales/GitHub-Fundamentals-Project-13/blob/53d5c861603527c3a220cd6200fd68df1f33c3e9/Images/Azure%20Resource%20Group%20Diagram%201.4.png
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
