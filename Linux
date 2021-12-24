@@ -1,1 +1,69 @@
+- Command to inspect permissions:
+  ls -l /etc/shadow
+   
 
+ - Command to set permissions (if needed):
+  sudo chmod 600 /etc/shadow
+
+
+- Command to inspect permissions:
+	ls -l /etc/gshadow
+
+
+- Command to inspect permissions:
+	ls -l /etc/passwd
+
+
+- Command to set permissions (if needed):
+  sudo chmod 600 /etc/gshadow
+
+
+- Command to add each user account (include all five users):
+	sudo adduser sam
+	sudo adduser joe
+	sudo adduser amy
+  sudo adduser sara
+  sudo adduser admin
+
+
+- Command to add `admin` to the `sudo` group:
+	sudo usermod -aG sudo admin
+
+
+- Command to add group:
+	sudo addgroup engineers
+
+
+- Command to add users to `engineers` group (include all four users):
+	sudo usermod -aG engineers sam
+  sudo usermod -aG engineers joe
+  sudo usermod -aG engineers amy
+  sudo usermod -aG engineers sara
+
+
+- Command to create the shared folder:
+  sudo mkdir /home/engineers
+
+
+- Command to change ownership of engineer's shared folder to engineer group:
+  sudo chgrp engineers /home/engineers
+
+
+- Command to install Lynis:
+  sudo apt install lynis -y
+
+
+- Command to see documentation and instructions:
+  sudo lynis --help
+
+
+- Command to install chkrootkit:
+  sudo apt install chkrootkit
+
+
+- Command to see documentation and instructions:
+  sudo chkrootkit --help
+
+
+- Command to run expert mode:
+  sudo chkrootkit -x
